@@ -1,2 +1,2 @@
 # Project-on-web-dev
-This repository is regarding the web devolopment
+This repository is regarding the web devolopment-devolopment
