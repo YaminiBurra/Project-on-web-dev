@@ -21,6 +21,9 @@ console.log(val);
 let x=1
 let valu=Boolean(x)
 console.log(valu)
+//operations:
+console.log(2+2)
+console.log(2**4)
 
 
 
