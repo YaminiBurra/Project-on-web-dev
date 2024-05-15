@@ -1,0 +1,30 @@
+//declaration of function
+let name="yamini"
+let id="123"
+function Fun(){
+    console.log(`Good afternoon I'm ${name},My rollno is ${id}`);
+}
+//Fun();//Function call
+//function with arguments
+function AddNum(num1,num2){
+    return num1+num2;
+}
+//console.log(AddNum(12,null));
+//Functions part2
+function calculateCartPrice(...nums)//...=>rest operator 
+{
+    return nums;
+
+}
+console.log(calculateCartPrice(565,98997,90))
+const user={
+    urname:"jnuu",
+    ids:"890"
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.urname} and id ${anyobject.ids}`)
+}
+handleObject({
+    urname:"yamini",
+    ids:"123"
+});
